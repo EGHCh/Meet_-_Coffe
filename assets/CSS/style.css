@@ -1,0 +1,131 @@
+body {
+    color: #000f08;
+    text-align: center;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body * {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.oscuro{
+    background: #000f08;
+    color: #ffffff;
+    padding: 1.5rem;
+}
+
+nav {
+    padding: 1.25rem 4rem;
+    position: fixed;
+    width: 100vw;
+    text-align: left;
+}
+
+.oscuro a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5625rem;
+}
+
+.oscuro ul li{
+    display: inline-block;
+    margin: 0 1em;
+    vertical-align: middle;
+}
+
+.sweet-brown {
+    padding: 50px;
+    background-color: #a4452c;
+    color: #ffffff;
+    text-align: left;
+    white-space: nowrap;
+    padding: 3.125rem;
+}
+.hero-section {
+    text-align: right;
+    background-image: url("../img/bg-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 0rem 0.1875rem 0.375rem #00000080;
+    padding: 6.25rem 3.125rem;
+}
+
+section, footer {
+    margin-top: 4.6875rem;
+}
+
+footer {
+    padding: 3.125rem;
+}
+
+.charla-texto, .evento {
+    display: inline-block;
+    
+}
+
+.centrado {
+    width: 75%;
+    margin: 0 auto;
+}
+.charla-speaker {
+    width: 25%; 
+    vertical-align: middle;
+}
+
+.charla-texto {
+    width: 70%;
+    vertical-align: middle;
+    margin-left: 5%;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.evento img {
+    width: 75%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.subtitulo, h4, h5{
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 3.75em;
+    margin-bottom:0.25;
+}
+
+h2 {
+    margin-top: 2.8125rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.75em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+
+.icono {
+    width: 2rem;
+}
+.icono svg{
+    fill: #ffffff;
+}
+
+footer i {
+    margin: 0 0.25em 0.5em 0.25em;
+}
