@@ -1,19 +1,10 @@
-body {
-    color: #000f08;
-    text-align: center;
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
+html {
+  font-size: 12px;
 }
 
-body * {
-    border: 0;
+body {
     margin: 0;
-    padding: 0;
-}
-.oscuro{
-    background: #000f08;
-    color: #ffffff;
-    padding: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav {
@@ -22,6 +13,114 @@ nav {
     width: 100vw;
     text-align: left;
 }
+
+h1 {
+    font-weight: 800;
+    font-size: 3.75em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.75em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+.oscuro{
+    background: #000f08;
+    color: #ffffff;
+    padding: 1.5rem;
+}
+
+/*
+ * PROXIMA CHARLA
+ */
+
+.proxima-charla {
+  align-items: flex-start;
+  background-color: #a4452c;
+  color: #FFFFFF;
+  display: flex;
+  padding: 104px 513px;
+}
+
+.proxima-charla__speaker {
+  width: 311px;
+}
+
+.proxima-charla__info {
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.proxima-charla__title {
+  margin: 0;
+  font-size: 2em;
+}
+
+.proxima-charla__subtitle {
+  margin: 0;
+}
+
+.proxima-charla__speaker-name {
+  margin: 0;
+}
+
+.proxima-charla__speaker-description {
+  margin: 0;
+}
+
+.proxima-charla__description {
+  margin: 0;
+}
+
+/*
+ * EVENTOS ANTERIORS
+ */
+
+.eventos-anteriores {
+  padding: 0 193px;
+}
+
+.eventos-anteriores__titulo {
+
+}
+
+.eventos-anteriores__eventos {
+  display: flex; 
+  justify-content: space-between;
+}
+
+.eventos-anteriores__eventos .evento {
+  width: 415px;
+}
+
+.evento {
+  
+}
+
+.evento__imagen {
+  width: 100%;
+}
+
+.evento__nombre {
+
+}
+
+
+/*
+ * TODO: ordenar
+ */
 
 .oscuro a {
     color: #ffffff;
@@ -35,14 +134,6 @@ nav {
     vertical-align: middle;
 }
 
-.sweet-brown {
-    padding: 50px;
-    background-color: #a4452c;
-    color: #ffffff;
-    text-align: left;
-    white-space: nowrap;
-    padding: 3.125rem;
-}
 .hero-section {
     text-align: right;
     background-image: url("../img/bg-hero.png");
@@ -61,68 +152,26 @@ footer {
     padding: 3.125rem;
 }
 
-.charla-texto, .evento {
-    display: inline-block;
-    
-}
-
 .centrado {
     width: 75%;
     margin: 0 auto;
 }
-.charla-speaker {
-    width: 25%; 
-    vertical-align: middle;
+
+.container {
+  width: 894px;
+  margin: 0 auto;
 }
 
-.charla-texto {
-    width: 70%;
-    vertical-align: middle;
-    margin-left: 5%;
-    white-space: nowrap;
-    text-align: left;
-}
-
-.evento img {
-    width: 75%;
-    margin-bottom: 10%;
-    margin-top: 10%;
-}
 
 .subtitulo, h4, h5{
     font-weight: 400;
 }
 
-h1 {
-    font-weight: 800;
-    font-size: 3.75em;
-    margin-bottom:0.25;
-}
-
-h2 {
-    margin-top: 2.8125rem;
-    margin-bottom: 0.5rem;
-    font-weight: 700;
-    font-size: 2.5em;
-}
-
-h3 {
-    font-size: 2em;
-}
-
-h4 {
-    font-size: 1.75em;
-}
-
-h5 {
-    font-size: 1.25em;
-}
-
-
 .icono {
     width: 2rem;
 }
-.icono svg{
+
+.icono svg {
     fill: #ffffff;
 }
 

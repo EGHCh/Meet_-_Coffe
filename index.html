@@ -6,13 +6,14 @@
     <title>Meet & Coffe</title>
     <meta name="description" content="Comparte tus conocimientos tomando
     café">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">  
     <link rel="shortcut icon" href="favicon.png" type="image/png">
     <script src="https://kit.fontawesome.com/a300a20b78.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 
 <body>
@@ -32,38 +33,38 @@
     </header>
 
     <section id="ubicacion">
-        <img src="assets/img/we-work.jpg" alt="Edificio We-work">
+        <img src="assets/images/we-work.jpg" alt="Edificio We-work">
         <h2>¿Donde nos juntamos?</h2>
         <p>Todos los martes y viernes, de 19:00 hrs a 22:00 hrs en We Work, <br> Calle Baker 133, Providencia, Santiago</p>
     </section>
 
-    <section id="proxima-charla" class="sweet-brown">
-        <div class="centrado">
-            <img src="assets/img/speaker.jpg" alt="Rafaela Valdéz" class="charla-speaker">
-            <div class="charla-texto">
-                <h2>Próxima charla</h2>
-                <h3>Big Data para Noobs</h3>
-                <h4>Rafaela Valdéz</h4>
-                <sub>Data Scientist, PhD Theorical Physics, Carneige Mellon University</sub>
-                <p>En esta charla revisaremos las técninas y tecnologías que hacen que sea económico hacer frente a los datos a una escala extrema</p>
-            </div>
+    <section class="proxima-charla" class="sweet-brown">
+        <img class="proxima-charla__speaker" src="assets/images/speaker.jpg" alt="Rafaela Valdéz">
+        <div class="proxima-charla__info">
+            <h2 class="proxima-charla__title">Próxima charla</h2>
+            <h3 class="proxima-charla__subtitle">Big Data para Noobs</h3>
+            <h4 class="proxima-charla__speaker-name">Rafaela Valdéz</h4>
+            <p class="proxima-charla__speaker-description">Data Scientist, PhD Theorical Physics, Carneige Mellon University</p>
+            <p class="proxima-charla__description">En esta charla revisaremos las técninas y tecnologías que hacen que sea económico hacer frente a los datos a una escala extrema</p>
         </div>
     </section>
 
-    <section id="eventos">
-        <h2>Eventos anteriores</h2>
-        <article class="evento">
-            <img src="assets/img/simposio-vegan.jpg" alt="Simposio Vegan">
-            <h3>Simposio VeganDB</h3>
-        </article>
-        <article class="evento">
-            <img src="assets/img/machine-learning.jpg" alt="Machine lerarning 101">
-            <h3>Machine lerarning 101</h3>
-        </article>
-        <article class="evento">
-            <img src="assets/img/scrum-sin-scream.jpg" alt="Scrum sin scream">
-            <h3>Scrum sin scream</h3>
-        </article>
+    <section class="eventos-anteriores">
+        <h2 class="eventos-anteriores__titulo">Eventos anteriores</h2>
+        <div class="eventos-anteriores__eventos">
+            <article class="evento">
+                <img class="evento__imagen" src="assets/images/simposio-vegan.jpg" alt="Simposio Vegan">
+                <h3 class="evento__nombre">Simposio VeganDB</h3>
+            </article>
+            <article class="evento">
+                <img class="evento__imagen" src="assets/images/machine-learning.jpg" alt="Machine lerarning 101">
+                <h3 class="evento__nombre">Machine lerarning 101</h3>
+            </article>
+            <article class="evento">
+                <img class="evento__imagen" src="assets/images/scrum-sin-scream.jpg" alt="Scrum sin scream">
+                <h3 class="evento__nombre">Scrum sin scream</h3>
+            </article>
+        </div>
     </section>
 
     <footer id="contacto" class="oscuro">
